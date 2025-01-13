@@ -8,7 +8,7 @@ double m = 0;
 double temp = s;
 for (double i = 0; temp >= qaliq; i++)
 {
-    qaliq = 24 * Math.Pow(60, 3);
+    qaliq = 24 * Math.Pow(60, 2);
     if (temp < qaliq)
         break;
     temp = temp - qaliq;
